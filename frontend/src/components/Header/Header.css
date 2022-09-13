@@ -1,0 +1,18 @@
+.menuBurger {
+  width: 4vmax;
+  height: 4vmax;
+}
+
+
+
+.nav2 > a {
+  font-family: "Montserrat" !important;
+  font-size: 25px !important;
+  font-weight: 900 !important;
+}
+
+.nav3 > a {
+  font-family: "Montserrat" !important;
+  font-size: 25px !important;
+  font-weight: 900 !important;
+}

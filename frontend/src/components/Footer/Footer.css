@@ -1,0 +1,101 @@
+.footer {
+  background-color: #f2ebe9;
+  padding: 3vmax;
+  display: grid;
+  grid-template-columns: 1fr 200px;
+}
+.footer > div > h1 {
+  color: #06283d;
+  border-bottom: 3px solid #06283d;
+  font-family: "Montserrat";
+  width: fit-content;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  font-weight: bolder;
+}
+
+.footer > div > h3 {
+  color: #06283d;
+  font-family: "Poppins";
+  word-spacing: 1px;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 40px;
+  /* opacity: 0.6; */
+}
+
+.footer > div > h3 > span {
+  color: #06283d;
+  font-family: "Poppins";
+  word-spacing: 1px;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  font-weight: 500;
+  opacity: 0.6;
+}
+.footer > div > p {
+  color: #06283d;
+  width: 60%;
+}
+
+.footer > div > h6 {
+  color: #06283d;
+  padding: 10px 0;
+  font-family: 'Lato';
+  font-weight: bolder;
+  border-bottom: 3px solid #06283d;
+}
+
+.footer > div:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer > div > a {
+  font-size: 2.5vmax;
+  color: #06283d;
+  transition: all 0.3s;
+  /* border-radius: 100%; */
+}
+.footer > div > a:nth-child(2):hover {
+  color: #171515;
+  opacity: 0.5;
+}
+.footer > div > a:nth-child(3):hover {
+  color: #FF0000;
+}
+.footer > div > a:nth-child(4):hover {
+  color: #fb3958;
+}
+.footer > div > a:nth-child(5):hover {
+  color: #0a66c2;
+}
+
+.footerContactBtn {
+  background-color: #06283d;
+  border-radius: 5px;
+  padding: 10px;
+  width: fit-content;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin: 2vmax 0;
+  border: 1px solid #06283d;
+  transition: all 0.5s;
+}
+
+.footerContactBtn > p {
+  color: white;
+  font-family: "Lato";
+  font-size: 20px;
+}
+
+.footerContactBtn:hover {
+  background-color: unset;
+}
+.footerContactBtn:hover p {
+  color: #06283d;
+}
