@@ -2,7 +2,7 @@ import express from "express";
 import cookieParser from "cookie-parser";
 import path from "path";
 
-import { userRouter } from "./routes/userRoute";
+import { userRouter } from "./routes/userRoute.js";
 
 export const app = express();
 

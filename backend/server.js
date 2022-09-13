@@ -1,12 +1,8 @@
-import { } from "./app";
-import dotenv from "dotenv";
-
-import { connectDatabase } from "./config/database";
+import { app } from "./app.js";
+import { connectDatabase } from "./config/database.js";
 
 import cloudinary from "cloudinary";
-
-
-
+import dotenv from "dotenv";
 dotenv.config({ path: "./backend/config/config.env" });
 
 connectDatabase();
