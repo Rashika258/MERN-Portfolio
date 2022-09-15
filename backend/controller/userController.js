@@ -1,5 +1,5 @@
 import { User } from "../model/userModel.js";
-import {} from "../middleware/sendMail.js";
+import { sendMail } from "../middleware/sendMail.js";
 
 import jwt from "jsonwebtoken";
 import cloudinary from "cloudinary";

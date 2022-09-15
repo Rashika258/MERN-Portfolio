@@ -4,6 +4,7 @@ import express from "express";
 import { addProject, addTimeline, addYoutube, contact, deleteProject, deleteTimeline, deleteYoutube, getUser, login, logout, myProfile, updateUser } from "../controller/userController.js";
 import { isAuthenticated } from "../middleware/authentication.js";
 
+
 export const userRouter = express.Router();
 
 userRouter.route("/login").post(login);
